@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       Company Hr portal
+    </title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.4vxPP6ch62jgoBE7EgB6MAAAAA?rs=1&pid=ImgDetMain">
+    
+    <style>
+         body
+         {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color:rgb(187, 254, 246);
+         }
+
+        header
+        {
+            background-color: rgb(215, 176, 252);
+            color: black;
+            text-align:center;
+            padding: 2px;
+        }
+
+        .navitem
+        {
+             display: inline;
+             padding: 15px;
+        }
+
+        .navitem a
+        {
+             text-decoration: none;
+             color: rgb(55, 40, 14) ;
+        }
+
+        .registrationForm
+        {
+           width: max-content;
+           margin-left: auto;
+           margin-right: auto;
+        }
+
+    .employTable
+        {
+            text-align: center;
+        }   
+    table
+       {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        border-collapse: collapse;
+       }  
+    
+    th,td {
+        border: 1px solid rgb(31, 37, 36);
+        padding: 5px;
+    }
+
+    .Contactus
+       {
+        text-align: center;
+       }
+
+
+    </style>
+
+</head>
+
+
+<body>
+   
+    <header>
+
+      <h1>Welcome to Company HR portal</h1>
+        <nav>
+          <ul>
+                <li class="navitem"><a href="#employ-registration">Employee Registration</a></li>
+                <li class="navitem"><a href="#employ-Directory">Employee Directory</a></li>
+                <li class="navitem"><a href="#Contact-us">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <image src="./image/image copy.png" style="height: 4in; width: 100%;"></image>
+
+    <section id="employ-registration" class="registrationForm">
+         <h2>Employee Registration</h2>
+         <P>Fill the below form to register as <em>employee.</em></P>
+        <form>
+          <label for="Name">Name:</label>
+          <input type="text" id="Name"><br><br>
+          <label for="Email">Email ID:</label>
+          <input type="email" id="Email"><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password"><br><br>
+          <label for="age">Age:</label>
+          <input type="number" id="age"><br><br>
+          <label for="role">select role:</label>
+          <select>
+                <option>Software Engineer</option>
+                <option>Product Manager</option>
+                <option>Designer</option>
+                <option>HR Represe ntative</option>
+          </select><Br><br>
+           <label for="joining date">select joining date:</label>
+          <input type="date" id="joining date"><br><br>
+          <input type="submit"> 
+          <input type="reset">
+        </form>
+    </section>
+
+    <section id="employ-Directory" class="employTable">
+       <h2>Employee Directory</h2> 
+       <p>List of all registered employees.</p>
+       <table>
+            <tr>
+               <th>Emloyee ID</th>
+               <th>Emloyee Name</th>
+               <th>Emloyee Role</th>
+            </tr>
+            <tr>
+                <td>4567</td>
+                <td>Kamal Hasan</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>4534</td>
+                <td>Jalal Hasan</td>
+                <td>Coriographer</td>
+            </tr>
+            <tr>
+                <td>4545</td>
+                <td>Roni Hasan</td>
+                <td>Software Engineer</td>
+            </tr>
+            <tr>
+                <td>4598</td>
+                <td>Tasnuba Hasan</td>
+                <td>Web Developer</td>
+            </tr>
+            <tr>
+                <td>4845</td>
+                <td>Jamal Hasan</td>
+                <td> Grafix Designer</td>
+            </tr>
+       </table>
+    </section>
+
+    <section id="Contact-us" class="Contactus">
+          <h2>Contact with us</h2>
+          <p>You can contact with us at company@official.com or visit us between 9AM-6PM.</p><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.019502791776!2d91.86546477521317!3d24.8973163779052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750552bc7d472fb%3A0x8aa92b82b3b5f305!2sAl%20Hamra%20Shopping%20City%2C%20Sylhet!5e0!3m2!1sen!2sbd!4v1723280471579!5m2!1sen!2sbd" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+       <p>&copy; 2024 Company Name </p>
+    </footer>        
+
+</body>
+</html>
